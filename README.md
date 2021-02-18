@@ -1,6 +1,6 @@
 # Ecolibrium_Energy_task
 Steps:
-1. Two ec2 instance is created 
+1. Two ec2 instance is created in US East (Ohio)us-east-2 regin
   a. Ansible-Server 
   b. Node -1 -Web server
 2. Created ansadmin user on both the servers. provide root privileges to ansadmin an all servers. Create Passwordless ssh Connection between them.
