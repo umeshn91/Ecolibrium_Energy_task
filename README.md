@@ -7,7 +7,7 @@ Steps:
 3. Install Ansible on Ansible server instance
    - create playbook to setup apache server and deploy index.html page on managenode 
    - Playbook path is /etc/ansible/server-setup.yml
-   - add manage node host antry into hosts file
+   - add manage node host entry into hosts file
    - check ping using ping module
  4. Create checker.sh scrip to check web server is up and returning 200 status code. if httpd serice is down then scrip will start httpd service and make server up.
   - checker scrip  path is /home/ec2-user/checker.sh
